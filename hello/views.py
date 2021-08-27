@@ -17,3 +17,6 @@ def db(request):
     greetings = Greeting.objects.all()
 
     return render(request, "db.html", {"greetings": greetings})
+
+def jina_try1(request):
+    return render(request, "jina_try1.html")
